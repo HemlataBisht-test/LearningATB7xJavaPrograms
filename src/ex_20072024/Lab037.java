@@ -8,10 +8,10 @@ public class Lab037 {
             case 004,005,006 :
                 System.out.println("It is Electronic Gadget");
                 break;
-            case 007,008,009 :
+          /*  case 007,008,009 :
                 System.out.println("It is Machanical Gadget");
                 break;
-            case 001,002,003 :
+           */ case 001,002,003 :
                 System.out.println("It is Electric Gadget");
                 break;
             default:
