@@ -17,7 +17,7 @@ public class Lab024 {
 //
 //        }
         int age = 15;
-        if (age>=18){
+        if (age>18){
             System.out.println("You are eligible for voting ");
 
         } else
