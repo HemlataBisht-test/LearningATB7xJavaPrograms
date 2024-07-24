@@ -12,16 +12,20 @@ public class Lab038 {
         Scanner sc =new Scanner(System.in);
         System.out.println("Please enter a number between 1 to 100");
         int num = sc.nextInt();
-        if (num%3==0){
+
+        for (int i = 1; i <=num; i++) {
+         if (num%3==0 && num%5==0) {
+            System.out.println("FizzBuzz");}
+
+        else if (num%3==0){
             System.out.println("Fizz");
         } else if (num%5==0) {
             System.out.println("Buzz");
 
-        } else if (num%3==0 && num%5==0) {
-            System.out.println("FizzBuzz");
-
         }else {
-            System.out.println("not multipels of 3 and 5");
-        }
+             System.out.println("i");
+         }
+
+        }}
     }
-}
+
